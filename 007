@@ -1,0 +1,14 @@
+hKhare='00002631885'
+print('Area of Triangle using Herons Formula')
+
+a=int(input('insert length of first side:'))
+b=int(input('insert length of second side:'))
+c=int(input('insert length of third side:'))
+
+s=(a+b+c)/2
+
+h=(s*(s-a)*(s-b)*(s-c))**0.5
+
+print('Area of triangle=',h)
+
+
